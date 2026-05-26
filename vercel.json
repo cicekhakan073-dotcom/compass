@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app/api/repos/ingest/route.ts": { "maxDuration": 30 },
+    "app/api/repos/[id]/ingest/route.ts": { "maxDuration": 60 },
+    "app/api/repos/[id]/tour/route.ts": { "maxDuration": 60 },
+    "app/api/repos/[id]/search/route.ts": { "maxDuration": 15 },
+    "app/api/repos/[id]/status/route.ts": { "maxDuration": 5 },
+    "app/api/repos/[id]/files/route.ts": { "maxDuration": 15 },
+    "app/api/chat/route.ts": { "maxDuration": 60 },
+    "app/api/github/webhook/route.ts": { "maxDuration": 60 },
+    "app/api/github/install/callback/route.ts": { "maxDuration": 60 }
+  }
+}
