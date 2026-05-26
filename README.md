@@ -171,7 +171,7 @@ compass/
 - [x] **Prompt 11** — GitHub App + webhook
 - [x] **Prompt 12** — Public guides + paylaşım (OG)
 - [x] **Prompt 13** — Polish (loading, errors, mobile, analytics, rate limit)
-- [x] **Prompt 14** — Deploy + demo asset'leri (you are here)
+- [x] **Prompt 14** — Deploy + demo asset'leri (canlı, GitHub'da, topics eklendi)
 
 ## Geliştirme
 
